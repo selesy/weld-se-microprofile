@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.selesy</groupId>
+    <artifactId>weld-se-microprofile-parent</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+  
+  <artifactId>weld-se-microprofile-config</artifactId>
+  <name>Weld SE Microprofile - Config</name>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.eclipse.microprofile.config</groupId>
+  		<artifactId>microprofile-config-api</artifactId>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.jboss.weld.se</groupId>
+  		<artifactId>weld-se</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-api</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-params</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.jboss.weld</groupId>
+  		<artifactId>weld-junit5</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.assertj</groupId>
+  		<artifactId>assertj-core</artifactId>
+  	</dependency>
+  </dependencies>
+</project>
